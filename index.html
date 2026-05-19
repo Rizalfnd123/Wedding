@@ -767,6 +767,16 @@
             </div>
         </div>
     </div>
+    <script>
+        window.addEventListener('load', function() {
+            if (typeof AOS !== 'undefined') {
+                setTimeout(() => {
+                    AOS.refresh();
+                }, 500);
+            }
+        });
+    </script>
+</body>
 </body>
 
 </html>
